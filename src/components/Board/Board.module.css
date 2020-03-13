@@ -1,0 +1,141 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.hovering {
+  z-index: 100;
+  opacity: 0.2;
+  background-color: white;
+}
+
+.title {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 52px;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  height: 128px;
+}
+
+.sort {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: end;
+}
+
+.link:hover {
+  color: lightgray;
+}
+
+.link:active {
+  color: grey,
+}
+
+.filter {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  font-size: 20px;
+}
+
+.filterIcons {
+  cursor: pointer;
+}
+
+.filterIcons:hover {
+  color: lightgray;
+}
+
+.filterIcons:active {
+  color: grey;
+}
+
+.filterIconsInactive {
+  color: #FF5050;
+}
+
+.filterIconsInactive:hover {
+  color: #FF3232;
+}
+
+.filterIconsInactive:active {
+  color: #FF1414;
+}
+
+.rosterInfos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  font-family: 'Staatliches', cursive;
+  margin-bottom: 2rem;
+}
+
+.roleCount {
+  font-size: 4rem;
+}
+
+.membersContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.groupMembersCompactContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.groupMembersCompact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 48px;
+}
+
+.separatorCompact {
+  justify-content: flex-start;
+  font-size: 24px;
+  margin-left: 1.5rem;
+}
+
+.line {
+  height: 5px;
+  width: 15%;
+  background-color: white;
+  margin: 0 25px;
+}

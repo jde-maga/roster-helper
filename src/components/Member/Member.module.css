@@ -1,0 +1,152 @@
+.container {
+  position: relative;
+  display: flex;
+  width: 26rem;
+  margin: 0.5rem 0;
+  border: 2px solid #1a1716;
+  border-radius: 2px;
+  user-select: none;
+  height: 72px;
+}
+
+.containerCompact {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 6rem;
+  border: 2px solid #1a1716;
+  border-radius: 2px;
+  margin: 0.5rem 0.5rem;
+  font-family: 'Sen', sans-serif;
+  overflow: hidden;
+  padding: 0 1rem;
+  user-select: none;
+}
+
+.roleSelection {
+  display: flex;
+  width: 21rem;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.infos {
+  line-height: 0.7;
+  padding-left: 4px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Sen', sans-serif;
+  width: 21rem;
+}
+
+.name {
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+}
+
+.role {
+  font-size: 1.5rem;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  align-items: flex-end;
+  flex: 2;
+}
+
+.class {
+  font-size: 2rem;
+}
+
+.iconContainer {
+  position: absolute;
+  top: 20%;
+  right: -16px;
+}
+
+.iconContainerCompact {
+  position: absolute;
+  right: -10px;
+  bottom: -15px;
+}
+
+.icon:hover, .iconContainer:hover {
+  color: lightgray;
+}
+
+.ignore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25%;
+  background-color: red;
+  padding: 0 3px;
+  font-family: 'Staatliches', cursive;
+  color: white;
+}
+
+.ignored {
+  opacity: 0.25;
+}
+
+.smallContainer {
+  scale: 0.9
+}
+
+.verysmallContainer {
+  scale: 0.8
+}
+
+.chevalier-de-la-mort {
+  background-color: #C41F3B;
+}
+
+.chasseur-de-demons {
+  background-color: #A330C9;
+}
+
+.druide {
+  background-color: #FF7D0A;
+}
+
+.chasseur {
+  background-color: #A9D271;
+}
+
+.mage {
+  background-color: #40C7EB;
+}
+
+.moine {
+  background-color: #00FF96;
+}
+
+.paladin {
+  background-color: #F58CBA;
+}
+
+.pretre {
+  background-color: #FFFFFF;
+}
+
+.voleur {
+  background-color: #FFF569;
+}
+
+.chaman {
+  background-color: #0070DE;
+}
+
+.demoniste {
+  background-color: #8787ED;
+}
+
+.guerrier {
+  background-color: #C79C6E;
+}

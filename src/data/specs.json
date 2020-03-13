@@ -1,0 +1,284 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/?namespace=static-8.3.0_32861-eu"
+    }
+  },
+  "character_specializations": [
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/62?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Arcanes",
+      "id": 62
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/63?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Feu",
+      "id": 63
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/64?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Givre",
+      "id": 64
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/65?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Sacré",
+      "id": 65
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/66?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Protection",
+      "id": 66
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/70?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Vindicte",
+      "id": 70
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/71?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Armes",
+      "id": 71
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/72?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Fureur",
+      "id": 72
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/73?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Protection",
+      "id": 73
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/102?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Équilibre",
+      "id": 102
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/103?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Farouche",
+      "id": 103
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/104?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Gardien",
+      "id": 104
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/105?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Restauration",
+      "id": 105
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/250?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Sang",
+      "id": 250
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/251?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Givre",
+      "id": 251
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Impie",
+      "id": 252
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/253?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Maîtrise des bêtes",
+      "id": 253
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/254?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Précision",
+      "id": 254
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/255?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Survie",
+      "id": 255
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/256?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Discipline",
+      "id": 256
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/257?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Sacré",
+      "id": 257
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/258?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Ombre",
+      "id": 258
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/259?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Assassinat",
+      "id": 259
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/260?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Hors-la-loi",
+      "id": 260
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/261?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Finesse",
+      "id": 261
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/262?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Élémentaire",
+      "id": 262
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/263?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Amélioration",
+      "id": 263
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/264?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Restauration",
+      "id": 264
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/265?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Affliction",
+      "id": 265
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/266?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Démonologie",
+      "id": 266
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/267?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Destruction",
+      "id": 267
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/268?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Maître brasseur",
+      "id": 268
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/269?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Marche-vent",
+      "id": 269
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/270?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Tisse-brume",
+      "id": 270
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/577?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Dévastation",
+      "id": 577
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/581?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Vengeance",
+      "id": 581
+    }
+  ],
+  "pet_specializations": [
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/74?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Férocité",
+      "id": 74
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/79?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Ruse",
+      "id": 79
+    },
+    {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/81?namespace=static-8.3.0_32861-eu"
+      },
+      "name": "Ténacité",
+      "id": 81
+    }
+  ]
+}
