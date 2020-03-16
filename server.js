@@ -49,7 +49,7 @@ app.get("/api/getGuildData", async (req, res) => {
   const accessKey =
     (req.user && req.user.accessToken) || process.env.ACCESS_KEY;
   const data = await axios.get(
-    `https://eu.api.blizzard.com/wow/guild/Archimonde/Variation?fields=members&locale=fr_FR&access_token=${accessKey}`
+    `https://eu.api.blizzard.com/data/wow/guild/archimonde/variation/roster?namespace=profile-eu&locale=fr_FR&access_token=${accessKey}`
   );
   res.send(data.data);
 });
@@ -68,4 +68,8 @@ app.get("/error", (req, res) => res.send("error"));
 
 app.listen(process.env.PORT || 8080, () => {
   console.log("listening now", Date.now());
+
+  setInterval(() => {
+    axios.get("https://variation-roster-helper.herokuapp.com/");
+  }, 600000);
 });
