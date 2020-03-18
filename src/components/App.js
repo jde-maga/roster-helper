@@ -18,8 +18,6 @@ function App() {
     return <div>Loading</div>;
   }
 
-  return <Main />;
-
   if (!isLoggedIn) {
     return <NotLoggedIn />;
   }

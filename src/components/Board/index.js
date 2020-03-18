@@ -18,13 +18,7 @@ import Member from "../Member/Member";
 import MemberParser from "../../services/memberParser";
 import SpecParser from "../../services/specParser";
 
-import classData from "../../data/classes.json";
-import racesData from "../../data/races.json";
-
 import styles from "./Board.module.css";
-
-const { classes } = classData;
-const { races } = racesData;
 
 const Board = ({ members, type, moveMember, changeRole, ignoreMember }) => {
   const [sortType, setSortType] = useState("Rank");
@@ -196,16 +190,13 @@ const Board = ({ members, type, moveMember, changeRole, ignoreMember }) => {
                       changeRole={changeRole}
                       id={member.id}
                       key={_.uniqueId("member")}
-                      memberClass={classes[member.character.class - 1].name}
-                      memberClassId={member.character.class}
+                      memberClass={member.character.class.name}
+                      memberClassId={member.character.class.id}
                       level={member.character.level}
                       name={member.character.name}
-                      race={
-                        races.find(race => member.character.race === race.id)
-                          .name
-                      }
+                      race={member.character.race.name}
                       spec={member.character.spec}
-                      thumb={member.character.thumbnail}
+                      thumb={member.thumb}
                       rank={member.rank}
                       ignored={member.ignore}
                     />

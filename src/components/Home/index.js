@@ -3,6 +3,7 @@ import { DndProvider } from "react-dnd";
 import Backend from "react-dnd-html5-backend";
 
 import Board from "../Board";
+// import AddCharacter from "../AddCharacter";
 
 import SoundBoard from "../../services/soundboard";
 import SaveLoad from "../../services/saveLoad";
@@ -56,7 +57,7 @@ const Main = () => {
     const loadedData = SaveLoad.loadSetup();
 
     setMembersData(
-      guildData.members.map(member => ({
+      guildData.map(member => ({
         ...member,
         status:
           loadedData.find(
@@ -119,6 +120,7 @@ const Main = () => {
           type="bench"
         />
       </div>
+      {/* <AddCharacter /> */}
     </DndProvider>
   );
 };

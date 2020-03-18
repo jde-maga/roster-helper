@@ -94,10 +94,7 @@ const Member = ({
           X
         </div>
       )}
-      <img
-        src={`http://render-eu.worldofwarcraft.com/character/${thumb}`}
-        alt="avatar"
-      />
+      <img src={thumb} alt="avatar" />
       {roleHover ? (
         <div className={cn(styles.roleSelection, _.kebabCase(memberClass))}>
           <GiWizardStaff

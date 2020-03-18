@@ -77,10 +77,8 @@ class SpecParser {
 
   getTypeFromSpec = spec => {
     if (!spec) return null;
-    if (spec.icon === "spell_deathknight_frostpresence") return "melee";
 
-    return this.parsedSpecs.find(parsedSpec => parsedSpec.name === spec.name)
-      .type;
+    return this.parsedSpecs.find(parsedSpec => parsedSpec.id === spec.id).type;
   };
 
   getClassFromId = classId =>
