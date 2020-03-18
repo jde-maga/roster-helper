@@ -39,11 +39,11 @@ class MemberParser {
             SpecParser.getRoleValueFromSpec(b.character.spec)
           );
         }
-        if (a.character.class !== b.character.class) {
-          return a.character.class - b.character.class;
+        if (a.character.class.id !== b.character.class.id) {
+          return a.character.class.id - b.character.class.id;
         }
-        if (a.character.spec?.order !== b.character.spec?.order) {
-          return a.character.spec?.order - b.character.spec?.order;
+        if (a.character.spec?.id !== b.character.spec?.id) {
+          return a.character.spec?.id - b.character.spec?.id;
         }
         return a.id - b.id;
       };
@@ -66,10 +66,10 @@ class MemberParser {
           return b.character.level - a.character.level;
         }
         if (a.character.class !== b.character.class) {
-          return a.character.class - b.character.class;
+          return a.character.class.id - b.character.class.id;
         }
-        if (a.character.spec?.order !== b.character.spec?.order) {
-          return a.character.spec?.order - b.character.spec?.order;
+        if (a.character.spec?.id !== b.character.spec?.id) {
+          return a.character.spec?.id - b.character.spec?.id;
         }
         if (a.rank !== b.rank) {
           return a.rank - b.rank;
@@ -79,8 +79,8 @@ class MemberParser {
     }
     if (sortType === "Class") {
       return (a, b) => {
-        if (a.character.class !== b.character.class) {
-          return a.character.class - b.character.class;
+        if (a.character.class.id !== b.character.class.id) {
+          return a.character.class.id - b.character.class.id;
         }
         if (a.ignore !== b.ignore) {
           return a.ignore - b.ignore;
@@ -97,8 +97,8 @@ class MemberParser {
             SpecParser.getRoleValueFromSpec(b.character.spec)
           );
         }
-        if (a.character.spec?.order !== b.character.spec?.order) {
-          return a.character.spec?.order - b.character.spec?.order;
+        if (a.character.spec?.id !== b.character.spec?.id) {
+          return a.character.spec?.id - b.character.spec?.id;
         }
         if (a.rank !== b.rank) {
           return a.rank - b.rank;
@@ -147,7 +147,9 @@ class MemberParser {
     if (sortType === "Class") {
       res = Array(classes.length + 2).fill([]);
       parsedMembers.forEach(member => {
-        const index = member.ignore ? res.length - 1 : member.character.class;
+        const index = member.ignore
+          ? res.length - 1
+          : member.character.class.id;
         res[index] = [...res[index], member];
       });
     }

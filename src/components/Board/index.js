@@ -67,9 +67,7 @@ const Board = ({ members, type, moveMember, changeRole, ignoreMember }) => {
     if (sortType === "Role")
       return membersGroup[0].character.spec?.type || "Unknown";
     if (sortType === "Class") {
-      return SpecParser.stylizeClassName(
-        SpecParser.getClassFromId(membersGroup[0].character.class)
-      );
+      return SpecParser.stylizeClassName(membersGroup[0].character.class.name);
     }
     return "-";
   };
